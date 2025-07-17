@@ -1,0 +1,73 @@
+# Build results
+bin/
+obj/
+out/
+*.dll
+*.exe
+*.app
+*.pdb
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+.vscode-test/
+
+# Rider settings
+.idea/
+
+# Visual Studio folder
+.vs/
+
+# Logs
+*.log
+*.tlog
+
+# Database files
+*.mdf
+*.ldf
+*.ndf
+*.db
+
+# EF Core Migrations snapshots
+**/Migrations/*Snapshot.cs
+
+# DotNet CLI artifacts
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NPM packages (if frontend involved)
+node_modules/
+
+# OS generated
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+
+# JetBrains Rider
+.idea/
+
+# Local environment configs
+appsettings.Development.json
+appsettings.Local.json
+
+# Secrets
+secrets.json
+*.key
+*.pfx
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
